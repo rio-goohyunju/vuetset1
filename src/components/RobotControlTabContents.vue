@@ -30,7 +30,7 @@ export default {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100%; /* 부모 요소의 높이를 설정해야 합니다. */
+    height: 100%;
 }
 
 .image-container {
