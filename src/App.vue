@@ -2,8 +2,10 @@
     <div id="app">
         <div class="map-container">
             <MenuTab />
+            
         </div class="RobotControlTabContents-container">
         <div>
+            <SelectedTab style="margin-top: 40px;"/>
             <RobotControlTabContents />
         </div>
     </div>
@@ -12,11 +14,12 @@
 <script>
 import RobotControlTabContents from "./components/RobotControlTabContents.vue";
 import MenuTab from "./layouts/MenuTab.vue";
-
+import SelectedTab from "./layouts/SelectedTab.vue";
 export default {
     name: "App",
     components: {
         MenuTab,
+        SelectedTab,
         // RobotControlTabContents,
     },
 };

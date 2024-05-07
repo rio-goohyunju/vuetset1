@@ -14,13 +14,11 @@
 >
 
 <script>
-import RobotControlTabContents from "@/components/RobotControlTabContents.vue";
-import RobotHouseControlTabContents from "@/components/RobotHouseControlTabContents.vue";
+import main from "@/layouts/main/main.vue";
 export default {
     name: "MenuTab",
     components: {
-        RobotControlTabContents,
-        RobotHouseControlTabContents,
+        main,
     },
 };
 </script>
